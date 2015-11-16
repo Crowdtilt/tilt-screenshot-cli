@@ -1,0 +1,22 @@
+{
+  "name": "tilt-screenshot-cli",
+  "version": "0.0.1",
+  "description": "CLI tool to take a screenshot of a webpage, powered by PhantomJS 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tilteng/tilt-screenshot-cli.git"
+  },
+  "author": "Tilt Engineering Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tilteng/tilt-screenshot-cli/issues"
+  },
+  "homepage": "https://github.com/tilteng/tilt-screenshot-cli#readme",
+  "dependencies": {
+    "phantomjs2": "git+https://git@github.com/tildedave/phantomjs2.git#fix-ubuntu-14-04-installation"
+  }
+}
