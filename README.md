@@ -25,7 +25,7 @@ Saved screenshot to ./screenshot-1447180666821-mobile.png
 To take a screenshot of your development environment, you may need to specify `--ignore-ssl-errors=true` when running the script.
 
 ```
-$ phantomjs --ignore-ssl-errors=true bin/screenshot.js --mobile "https://www.localhost:4443/tilts/mareks-bike-tiltinsurance"
+$ phantomjs --ignore-ssl-errors=true bin/screenshot.js --mobile "https://www.dev.tilt.com:4443/tilts/mareks-bike-tiltinsurance"
 Loading https://www.localhost:4443/tilts/mareks-bike-tiltinsurance
 Loaded https://www.localhost:4443/tilts/mareks-bike-tiltinsurance in 5109 ms
 Saved screenshot to ./screenshot-1447179877001-mobile.png
